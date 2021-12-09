@@ -99,10 +99,9 @@ body {
 }
 
 .div4 {
-    animation: saltar 3s infinite;
+  animation: saltar 3s infinite;
 }
 @keyframes saltar {
-
 }
 
 .div5 {
@@ -111,7 +110,8 @@ body {
     90deg,
     rgba(255, 231, 171, 1) 0%,
     rgba(174, 255, 254, 1) 33%,
-    rgba(234, 197, 255, 1) 67% rgba(255, 231, 171, 1) 100%
+    rgba(234, 197, 255, 1) 67%,
+    rgba(255, 231, 171, 1) 100%
   );
   background-size: 200%;
 }
