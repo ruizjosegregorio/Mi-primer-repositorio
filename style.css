@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 15px;
+  gap: 80px;
   flex-wrap: wrap;
   width: 100%;
   height: 50vh;
@@ -90,18 +90,22 @@ body {
     top: 0;
     left: 0;
   }
-
-  .div4 {
-    animation: saltar 3s infinite;
-  }
-  @keyframes saltar {
-  }
 }
-
-.div4 {
+.div4{
+  text-align: center;
+}
+.div4:hover {
+  
   animation: saltar 3s infinite;
 }
 @keyframes saltar {
+  50%{
+    transform: translateY(300%);
+
+  }
+100%{
+  transform: translateY(-300%);
+}
 }
 
 .div5 {
